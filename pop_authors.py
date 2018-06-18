@@ -13,6 +13,6 @@ def get_authors():
     db.close()
     return authors
 
+
 for name, views in get_authors():
     print(name + " - " + str(views) + " views")
-

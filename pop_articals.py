@@ -13,6 +13,6 @@ def get_articals():
     db.close()
     return articals
 
+
 for title, views in get_articals():
     print('"' + title + '" - ' + str(views) + " views")
-

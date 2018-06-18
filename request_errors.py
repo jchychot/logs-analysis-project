@@ -13,5 +13,6 @@ def get_errors():
     db.close()
     return errors
 
+
 for date, percenterr in get_errors():
     print(date + " - " + str(percenterr) + "% errors")
