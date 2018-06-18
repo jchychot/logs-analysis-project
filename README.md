@@ -62,6 +62,7 @@ create view geterrordays as select to_char(a.adate, 'FMMonth DD,YYYY'), round(a.
 Postgress Database created with [News Data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 Database name: vagrant
+
 Tables:
 ```sh
 vagrant=> \d articles
