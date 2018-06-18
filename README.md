@@ -95,7 +95,7 @@ Referenced by:
     TABLE "articles" CONSTRAINT "articles_author_fkey" FOREIGN KEY (author) REFERENCES authors(id)
 
 
-agrant=> \d log
+vagrant=> \d log
                                   Table "public.log"
  Column |           Type           |                    Modifiers
 --------+--------------------------+--------------------------------------------------
